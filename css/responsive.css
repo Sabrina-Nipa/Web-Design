@@ -1,0 +1,98 @@
+
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+   .manu ul li {margin-left: 22px;}
+   .btn {padding-right: 0;}
+   .single-slider{background: cover;background-position: center;}
+   .single-features {padding: 30px 28px;}
+   .single-features a {padding-bottom: 23px;}
+   .single-features h3 {margin-bottom: 13px;}
+   .single-services p {margin-bottom: 35px;}
+   .single-services {padding-top: 50px;}
+   .testimonials-area{background: cover;background-position: center;}
+}
+
+ 
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+	.header-area {padding: 0 10px;}
+    .manu ul li {margin-left: 15px;}
+    .single-slider{background: cover;background-position: center;}
+    .btn a {padding: 10px 30px;font-size: 14px;}
+    .btn {margin-left: 18px;margin-top: 22px;}
+    .slider-inner h2 {font-size: 50px;}
+    .single-features {padding: 30px 0px;}
+    .single-features a {font-size: 25px;padding-bottom: 28px;}
+    .about-img {padding-top: 84px;}
+    .testimonials-area{background: cover;background-position: center;}
+    .about-contant {padding-top: 76px;}
+    .link-form input {padding: 7px 0px;margin-left: 18px;font-size: 13px;}
+    .link-form button {padding: 7px 42px;font-size: 13px;margin-left: 5px;}
+    .single-services {margin-bottom: 30px;}
+    .services-area {padding: 50px 0;}
+    .testimonials-item {padding: 50px 31px 90px;}
+}
+
+ 
+/* Extra small Device. */
+@media (max-width: 767px) {
+	.container { padding-right: 0; padding-left: 0;}
+    .header-area {padding: 30px 30px;}
+    .slider-inner h2 {font-size: 50px;}
+    .features-area {margin-top: 38px;}
+    .single-features {padding: 33px 28px;border-bottom: 2px solid #ccc;}
+    .link-form input {margin-left: 0;font-size: 13px;padding: 5px 1px;margin-left: 5px;}
+    .link-form button {padding: 5px 35px;font-size: 13px;margin-left: 187px;margin-top: 17px;}
+    .single-services {margin-bottom: 30px;}
+    .services-area {padding-top: 60px;padding-bottom: 30px;}
+    .row {margin-right: 0; margin-left: 0;}
+    .single-pricing h3 {padding-top: 22px;padding-bottom: 22px;}
+    .pricing-btn a {padding: 5px 28px;}
+    .pricing-btn {margin-top: 22px;margin-bottom: 31px;}
+    .single-pricing ul li {line-height: 29px;font-size: 13px;}
+    .pricing-area {padding: 40px 0;}
+    .counter-area {padding-top: 31px;padding-bottom: 10px;}
+    .testimonials-item {padding: 50px 16px 96px;}
+    .footer-right a {margin-left: 8px;}
+    .team-img img {width: 75%;margin-bottom: 20px;}
+    .testimonials-area{background: cover;background-position: center;}
+    .single-slider{background: cover;background-position: center;}
+
+}
+ 
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    
+    .col-sm-12 {padding-left: 0;padding-right: 0;}
+    
+}
+
+
+/* retina query */
+@media only screen and (-webkit-min-device-pixel-ratio:2) and (max-width:991.98px),only screen and (min--moz-device-pixel-ratio:2) and (max-width:991.98px),only screen and (-o-min-device-pixel-ratio:2/1) and (max-width:991.98px),only screen and (min-device-pixel-ratio:2) and (max-width:991.98px),only screen and (min-resolution:192dpi) and (max-width:991.98px),only screen and (min-resolution:2dppx) and (max-width:991.98px){
+
+.logo .standard-logo{
+  display: none;
+}
+.logo .retina-logo{
+  display: inline-block;
+}
+
+}
+
+
+@media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min--moz-device-pixel-ratio:2),only screen and (-o-min-device-pixel-ratio:2/1),only screen and (min-device-pixel-ratio:2),only screen and (min-resolution:192dpi),only screen and (min-resolution:2dppx){
+.logo .standard-logo{
+  display: none;
+}
+.logo .retina-logo{
+  display: inline-block;
+}
+
+}
